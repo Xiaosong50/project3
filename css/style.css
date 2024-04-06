@@ -143,7 +143,10 @@ footer {
   text-align: center;
   margin: 50px auto 5px;
 }
-
+#map {
+    height: 400px;
+    width: 100%;
+}
 
 
 
