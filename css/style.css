@@ -149,6 +149,18 @@ footer {
     border: solid 3px rgb(189,215,238);
     border-radius: 15px; 
 }
-
+#button {
+  
+  
+  width: 80px;
+  background-color: rgb(189,215,238);
+  font-size: large;
+  color: rgb(28,25,25);
+  padding: 15px;
+  border: solid 3px rgb(189,215,238);
+  border-radius: 10px;
+  margin: 10px auto;
+  text-align: center;
+}
 
 
