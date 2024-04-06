@@ -146,7 +146,7 @@ footer {
 #map {
     height: 400px;
     width: 100%;
-    border: solid 2px rgb(189,215,238);
+    border: solid 3px rgb(189,215,238);
     border-radius: 15px; 
 }
 
