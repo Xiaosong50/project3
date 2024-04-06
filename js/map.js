@@ -7,9 +7,6 @@ function initMap()
   });
   
   var locationButton=document.getElementById("button");
-  //locationButton.textContent="Go to my location";
-  //locationButton.classList.add("map-button");
-  //map.controls[google.maps.ControlPosition.TOP_CENTER].push(locationButton);
   locationButton.addEventListener("click",()=> {
     if (navigator.geolocation){
       navigator.geolocation.getCurrentPosition(
