@@ -140,6 +140,7 @@ p {
   margin:10px;
 }
 footer {
+  clear: both;
   text-align: center;
   margin: 50px auto 5px;
 }
@@ -149,7 +150,11 @@ footer {
     border: solid 3px rgb(189,215,238);
     border-radius: 15px; 
 }
-#button {
+#block {
+  display: flex;
+  justify-content: center;
+}
+.button {
   width: 80px;
   background-color: rgb(189,215,238);
   font-size: large;
@@ -157,8 +162,9 @@ footer {
   padding: 15px;
   border: solid 3px rgb(189,215,238);
   border-radius: 10px;
-  margin: 10px auto;
+  margin: 10px;
   text-align: center;
+  float: left;
 }
 
 
