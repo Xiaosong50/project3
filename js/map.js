@@ -35,6 +35,7 @@ function initMap()
   const trafficLayer = new google.maps.TrafficLayer();
   const transitLayer = new google.maps.TransitLayer();
   const bikeLayer = new google.maps.BicyclingLayer();
+  
   TrafficButton.addEventListener("click",()=>{
     if(TrafficRecord==0){
       trafficLayer.setMap(map);
