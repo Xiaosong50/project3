@@ -1,3 +1,13 @@
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
+}
 html {
     background-color: rgb(222,235,247);
 }
@@ -166,5 +176,6 @@ footer {
   text-align: center;
   float: left;
 }
+
 
 
