@@ -1,13 +1,12 @@
-@media only screen and (max-width: 768px) {
-    body {
-        background-color: lightblue;
-    }
+@media only screen and (min-width: 480px) {
+    
 }
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-    body {
-        background-color: lightgreen;
-    }
+@media only screen and (min-width: 768px) {
+    
 }
+
+
+
 html {
     background-color: rgb(222,235,247);
 }
